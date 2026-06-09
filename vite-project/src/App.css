@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #3ee264, #49c0e8);
+  min-height: 100vh;
+}
+
+h1{
+  color: white;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 22px;
+}
+
+.course-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  width: 270px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
+  transition: 0.3s;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.course-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-content h2 {
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.card-content p {
+  color: #555;
+  margin: 8px 0;
+}
+
+.card-content h3 {
+  margin-top: 20px;
+  font-size: 32px;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.tag {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: white;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.purple h3 {
+  background: linear-gradient(to right, #7b2ff7, #f107a3);
+}
+
+.green h3 {
+  background: linear-gradient(to right, #00c9a7, #00e676);
+}
+
+.orange h3 {
+  background: linear-gradient(to right, #ff8008, #ff5e00);
+}
+
+.pink h3 {
+  background: linear-gradient(to right, #ff0080, #ff4d6d);
+}
+
+.blue h3 {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+.purple button {
+  color: #7b2ff7;
+}
+
+.green button {
+  color: #00b894;
+}
+
+.orange button {
+  color: #ff6a00;
+}
+
+.pink button {
+  color: #ff006e;
+}
+
+.blue button {
+  color: #0072ff;
+}
